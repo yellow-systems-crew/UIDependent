@@ -5,10 +5,7 @@
 //  Created by Nikita Grishin on 10.01.23.
 //
 
-public extension CGFloat {
-    static let canonicalHeight: CGFloat = 812
-    static let canonicalWidth: CGFloat = 375
-}
+extension CGFloat: CanonicalSizeProvidable { }
 
 public extension CGFloat {
     func roundedTo(digits power: Int) -> CGFloat {

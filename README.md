@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/platform-iOS-yellow)
 ![Swift 5.x](https://img.shields.io/badge/Swift-5.x-orange)
 
-This repository contains lib with UI sizes converters for iOS development
+This repository contains a library with UI sizes converters for iOS development
 
 ## Requirements
 

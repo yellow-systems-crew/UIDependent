@@ -36,6 +36,6 @@ extension Numeric {
 
     func fontSizeMultiplier(layoutHeight: CGFloat) -> CGFloat {
         let heightMultiplier = self.heightMultiplier(layoutHeight: layoutHeight)
-        return heightMultiplier >= 1 ? heightMultiplier : heightMultiplier * 1.2
+        return heightMultiplier >= 1 ? heightMultiplier : heightMultiplier
     }
 }

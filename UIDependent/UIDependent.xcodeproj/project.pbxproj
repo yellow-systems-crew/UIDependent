@@ -12,6 +12,7 @@
 		9ADD52F5296DD97400699A57 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD52F4296DD97400699A57 /* CGFloat+Extensions.swift */; };
 		9ADD52F7296DDCF600699A57 /* UISizeDependent+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD52F6296DDCF600699A57 /* UISizeDependent+Extensions.swift */; };
 		9ADD52F9296DDD1100699A57 /* Numeric+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD52F8296DDD1100699A57 /* Numeric+Extensions.swift */; };
+		9ADD53082971DD8500699A57 /* CanonicalSizeProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD53072971DD8500699A57 /* CanonicalSizeProvidable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9ADD52F4296DD97400699A57 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 		9ADD52F6296DDCF600699A57 /* UISizeDependent+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISizeDependent+Extensions.swift"; sourceTree = "<group>"; };
 		9ADD52F8296DDD1100699A57 /* Numeric+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numeric+Extensions.swift"; sourceTree = "<group>"; };
+		9ADD53072971DD8500699A57 /* CanonicalSizeProvidable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonicalSizeProvidable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				9ADD52F1296DD94200699A57 /* UISizeDependent.swift */,
+				9ADD53072971DD8500699A57 /* CanonicalSizeProvidable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADD53082971DD8500699A57 /* CanonicalSizeProvidable.swift in Sources */,
 				9ADD52F5296DD97400699A57 /* CGFloat+Extensions.swift in Sources */,
 				9ADD52F9296DDD1100699A57 /* Numeric+Extensions.swift in Sources */,
 				9ADD52F2296DD94200699A57 /* UISizeDependent.swift in Sources */,
