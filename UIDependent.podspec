@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'UIDependent'
-  spec.version          = '0.0.1'
+  spec.version          = '0.1.0'
   spec.summary          = 'Yellow Systems UI sizes converters for iOS development'
 
   spec.description      = <<-DESC
