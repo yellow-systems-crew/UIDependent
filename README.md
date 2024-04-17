@@ -31,9 +31,6 @@ view.frame.size = CGSize(width: 100.widthDependent(),
                          
 /// You can automatically convert the font sizes from the design according to the screen height of the running device:
 view.font = UIFont.boldSystemFont(ofSize: 18.fontSizeDependent())
-
-/// You can automatically convert the font sizes from the design according to the screen width of the running device:
-view.font = UIFont.boldSystemFont(ofSize: 18.fontSizeWidthDependent())
 ```
 
 If you need to use another values as the canonical height or width, you can pass them as arguments:
@@ -47,9 +44,6 @@ view.snp.makeConstraints {
 
 /// You can automatically convert the font sizes from the design according to the screen height of the running device:
 view.font = UIFont.boldSystemFont(ofSize: 18.fontSizeDependent(layoutHeight: 932))
-
-/// You can automatically convert the font sizes from the design according to the screen width of the running device:
-view.font = UIFont.boldSystemFont(ofSize: 18.fontSizeWidthDependent(layoutWidth: 430))
 ```
 
 Also, all methods have a `clamped` argument, which allows you to set the maximum and minimum size values:
