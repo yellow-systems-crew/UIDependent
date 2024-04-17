@@ -1,6 +1,6 @@
 # UIDependent
 
-![CocoaPods Compatible](https://img.shields.io/badge/pod-v0.1.0-blue)
+![CocoaPods Compatible](https://img.shields.io/badge/pod-v0.1.1-blue)
 ![Platform](https://img.shields.io/badge/platform-iOS-yellow)
 ![Swift 5.x](https://img.shields.io/badge/Swift-5.x-orange)
 
