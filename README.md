@@ -60,6 +60,10 @@ view.font = UIFont.boldSystemFont(ofSize: 10.fontSizeDependent(clamped: 8..<15))
 Nikita Grishin, nikita.hryshyn@yellow.systems
 Yellow Team
 
+## Contributors
+
+Artsiom Sadyryn, artsiom.sadyryn@yellow.systems
+
 ## License
 
 UIDependent is available under the MIT license. See the LICENSE file for more info.
