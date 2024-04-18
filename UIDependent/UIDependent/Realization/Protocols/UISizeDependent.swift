@@ -16,9 +16,6 @@ public protocol UISizeDependent {
 
     /// Device's screen font size height dependent value
     func fontSizeDependent(layoutHeight: CGFloat) -> CGFloat
-    
-    /// Device's screen font size width dependent value
-    func fontSizeWidthDependent(layoutWidth: CGFloat) -> CGFloat
 }
 
 extension Float: UISizeDependent { }

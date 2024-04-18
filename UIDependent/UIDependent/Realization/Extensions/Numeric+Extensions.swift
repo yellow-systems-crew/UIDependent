@@ -33,9 +33,4 @@ extension Numeric {
     func heightMultiplier(layoutHeight: CGFloat) -> CGFloat {
         UIScreen.main.bounds.height / layoutHeight
     }
-
-    func fontSizeMultiplier(layoutHeight: CGFloat) -> CGFloat {
-        let heightMultiplier = self.heightMultiplier(layoutHeight: layoutHeight)
-        return heightMultiplier >= 1 ? heightMultiplier : heightMultiplier
-    }
 }
